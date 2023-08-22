@@ -1,3 +1,3 @@
-# Portfolio-Projects
+# US Salary Analysis
 
-This repository contains the code for all of my data analysis projects.
+This will be the report for my US Salary project.
