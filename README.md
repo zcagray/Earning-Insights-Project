@@ -1,4 +1,5 @@
-# Earning Insights:## Dissecting the Drivers of Average Incomes in the US
+# Earning Insights:
+## Dissecting the Drivers of Average Incomes in the US
 
 I’m intrigued by the various ways in which individuals earn their livelihoods and the factors that influence their earnings. The extent to which certain elements contribute to compensation is a topic of great fascination to me. 
 
