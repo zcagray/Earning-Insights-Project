@@ -17,3 +17,13 @@ The dataset utilized in this analysis was sourced from AskAManager.org, a platfo
 2. Which industries offer the highest average salaries within each age group?
 3. Does gender have a varying impact on salary in specific states and industries?
 4. Is there a correlation between education level, years of professional experience and salary? Specifically, does the highest degree earned correlate with salary differences among individuals with equal professional experience?
+
+### Technical Challenges
+
+1. Messy data:
+  * there were multiple free-form answers resulting in spelling, spacing and capitalization errors
+  * state, industry and race columns allowed participants to check multiple boxes
+  * annual salary column included a comma and surveyors submitted extreme numbers
+2. The industry column allowed an ‘Other’ option (more free-form text to sort)
+3. Roughly 16% of the data was from outside of the US
+4. The race column allowed for multiple selections and an ‘Other’ option (decided to exclude race as a factor for analysis)
