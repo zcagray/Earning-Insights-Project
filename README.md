@@ -1,3 +1,5 @@
+![title](Graphs/Earning_Insights.png)
+
 # Earning Insights:
 ## Dissecting the Drivers of Average Incomes in the US
 
