@@ -53,7 +53,13 @@ Clearly, states such as California, Washington, D.C., and New York stand out for
 ![title](Graphs/avg_sal_ind_age.png)
 Among the age groups of 18-24 and 25-34, Computing and Tech emerges as the top-paying industry. There's a slight shift in favor of Pharmaceuticals compared to Computing and Tech for the age ranges of 35-44 and 45-54. Moving on, the highest paying industry for those aged 55-64 is Energy, while Business and Consulting take the lead for individuals aged 65 and above.
 
+#### Question 3
+![title](Graphs/avg_sal_gen_state.png)
+This initial chart indicates that men tend to have a higher average salary compared to women in all states except for Delaware, Maine, and Wyoming.
 
+
+![title](Graphs/avg_sal_ind_gen.png)
+Similarly, only four industries show women earning a higher average salary than their male counterparts. These industries are Pharmaceuticals, Agriculture or Forestry, Law Enforcement & Security, and Animal Care.
 
 
 
