@@ -67,7 +67,9 @@ When considering individuals with 4 years or less of professional experience in 
 
 #### Deeper Analysis
 
-Finally, I wondered which states had a smaller gender pay gap ratio than the country’s average. To figure this out, I used PostgreSQL. I looked at how much men and women make on average in each state, then compared it to the national average for the whole country. I made a new table with these comparisons so that I could create a filled map in Tableau that shows each state's situation compared to the country. In this map, 100 means that men and women earn the same. The country's average is 77, which is not so good. The lower the number, the worse the situation is for women (shown in dark red). Remember, only Delaware, Maine, and Wyoming have numbers above 100 (shown in dark green).
+Finally, I wondered which states had a smaller gender pay gap ratio than the country’s average. To figure this out, I used PostgreSQL. I looked at how much men and women make on average in each state, then compared it to the national average for the whole country. I made a new table with these comparisons so that I could create a filled map in Tableau that shows each state's situation compared to the country. 
+![title](Graphs/gpg_ratios.png)
+In this map, 100 means that men and women earn the same. The country's average is 77, which is not so good. The lower the number, the worse the situation is for women (shown in dark red). Remember, only Delaware, Maine, and Wyoming have numbers above 100 (shown in dark green).
 
 
 
