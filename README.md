@@ -43,6 +43,30 @@ In Excel, I began by removing duplicates from the entire dataset. I also elimina
 
 Back in Excel, I populated the ‘us_state’ column when the state was mistakenly entered into the ‘city’ column or when it was possible to identify a corresponding US city. At this point, additional inconsistencies were removed, as some non-US cities were included. The next step involved the 'industry' column. I manually sorted the responses labeled as ‘Other’ into existing industries and introduced new categories when necessary. Lastly, I removed outliers from the ‘annual_salary’ column in PostgreSQL. This involved excluding values below $10,000 and exceeding a certain threshold calculated using the formula (average salary + 3 * standard deviation).
 
+#### Data Analysis
+
+##### Question 1
+![title](Graphs/avg_sal_ind_state.png)
+Clearly, states such as California, Washington, D.C., and New York stand out for having notably higher salaries per industry when compared to other states. This isn't really surprising, since these regions are major economic hubs with strong industries. 
+
+##### Question 2
+![title](Graphs/avg_sal_ind_age.png)
+Among the age groups of 18-24 and 25-34, Computing and Tech emerges as the top-paying industry. There's a slight shift in favor of Pharmaceuticals compared to Computing and Tech for the age ranges of 35-44 and 45-54. Moving on, the highest paying industry for those aged 55-64 is Energy, while Business and Consulting take the lead for individuals aged 65 and above.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
