@@ -3,9 +3,9 @@
 # Earning Insights:
 ## Dissecting the Drivers of Average Incomes in the US
 
-I’m intrigued by the various ways in which individuals earn their livelihoods and the factors that influence their earnings. The extent to which certain elements contribute to compensation is a topic of great fascination to me. 
+I’m intrigued by the various ways in which individuals earn their livelihoods and the factors that influence their earnings. The extent to which certain elements contribute to compensation is a topic of great curiosity to me. 
 
-This analysis aims to uncover insights into how geography, gender, race, education, and experience impact the average salary of an American. 
+This analysis aims to uncover insights into how geography, gender, education, and experience impact the average salary of an American. 
 
 ### Dataset
 
@@ -13,4 +13,7 @@ The dataset utilized in this analysis was sourced from AskAManager.org, a platfo
 
 ### Questions
 
-Something goes here (no space test)
+1. What states have the highest salaries within each industry?
+2. Which industries offer the highest average salaries within each age group?
+3. Does gender have a varying impact on salary in specific states and industries?
+4. Is there a correlation between education level, years of professional experience and salary? Specifically, does the highest degree earned correlate with salary differences among individuals with equal professional experience?
