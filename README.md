@@ -53,7 +53,7 @@ Clearly, states such as California, Washington, D.C., and New York stand out for
 ![title](Graphs/avg_sal_ind_age.png)
 Among the age groups of 18-24 and 25-34, Computing and Tech emerges as the top-paying industry. There's a slight shift in favor of Pharmaceuticals compared to Computing and Tech for the age ranges of 35-44 and 45-54. Moving on, the highest paying industry for those aged 55-64 is Energy, while Business and Consulting take the lead for individuals aged 65 and above.
 
-#### Question 3
+##### Question 3
 ![title](Graphs/avg_sal_gen_state.png)
 This initial chart indicates that men tend to have a higher average salary compared to women in all states except for Delaware, Maine, and Wyoming.
 
@@ -61,7 +61,13 @@ This initial chart indicates that men tend to have a higher average salary compa
 ![title](Graphs/avg_sal_ind_gen.png)
 Similarly, only four industries show women earning a higher average salary than their male counterparts. These industries are Pharmaceuticals, Agriculture or Forestry, Law Enforcement & Security, and Animal Care.
 
+##### Question 4
+![title](Graphs/avg_sal_exp_ed.png)
+When considering individuals with 4 years or less of professional experience in the field, a notable correlation emerges between higher salaries and individuals with advanced education and higher degrees. This correlation results in an approximate $60,000 disparity in averages. However, for those with 21-30 years of experience, the influence of education level on average salary appears to diminish, with the gap narrowing to around $20,000. Additionally, there is a general decline in average salary across all educational backgrounds when the experience level reaches 40 years or more.
 
+#### Deeper Analysis
+
+Finally, I wondered which states had a smaller gender pay gap ratio than the country’s average. To figure this out, I used PostgreSQL. I looked at how much men and women make on average in each state, then compared it to the national average for the whole country. I made a new table with these comparisons so that I could create a filled map in Tableau that shows each state's situation compared to the country. In this map, 100 means that men and women earn the same. The country's average is 77, which is not so good. The lower the number, the worse the situation is for women (shown in dark red). Remember, only Delaware, Maine, and Wyoming have numbers above 100 (shown in dark green).
 
 
 
