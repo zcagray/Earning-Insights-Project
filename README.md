@@ -9,7 +9,7 @@ This analysis aims to uncover insights into how geography, gender, education, an
 
 ### Dataset
 
-The dataset utilized in this analysis was sourced from AskAManager.org, a platform hosting a real-time salary survey with a predominant focus on the United States. The survey gathers compensation-related information from anonymous participants and is continuously updated. The dataset used for this analysis was obtained on August 20, 2023, at 15:46 (PST). This timestamp ensures a specific reference point for the data snapshot taken, which aids in maintaining temporal context throughout the analysis.
+The dataset utilized in this analysis was sourced from [AskAManager.org](https://www.askamanager.org/2021/04/how-much-money-do-you-make-4.html), a platform hosting a real-time salary survey with a predominant focus on the United States. The survey gathers compensation-related information from anonymous participants and is continuously updated. The dataset used for this analysis was obtained on August 20, 2023, at 15:46 (PST). This timestamp ensures a specific reference point for the data snapshot taken, which aids in maintaining temporal context throughout the analysis.
 
 ### Questions
 
