@@ -45,15 +45,15 @@ Back in Excel, I populated the ‘us_state’ column when the state was mistaken
 
 #### Data Analysis
 
-##### Question 1
+##### Question 1: What states have the highest salaries within each industry?
 ![title](Graphs/avg_sal_ind_state.png)
 Clearly, states such as California, Washington, D.C., and New York stand out for having notably higher salaries per industry when compared to other states. This isn't really surprising, since these regions are major economic hubs with strong industries. 
 
-##### Question 2
+##### Question 2: Which industries offer the highest average salaries within each age group?
 ![title](Graphs/avg_sal_ind_age.png)
 Among the age groups of 18-24 and 25-34, Computing and Tech emerges as the top-paying industry. There's a slight shift in favor of Pharmaceuticals compared to Computing and Tech for the age ranges of 35-44 and 45-54. Moving on, the highest paying industry for those aged 55-64 is Energy, while Business and Consulting take the lead for individuals aged 65 and above.
 
-##### Question 3
+##### Question 3: Does gender have a varying impact on salary in specific states and industries?
 ![title](Graphs/avg_sal_gen_state.png)
 This initial chart indicates that men tend to have a higher average salary compared to women in all states except for Delaware, Maine, and Wyoming.
 
@@ -61,7 +61,7 @@ This initial chart indicates that men tend to have a higher average salary compa
 ![title](Graphs/avg_sal_ind_gen.png)
 Similarly, only four industries show women earning a higher average salary than their male counterparts. These industries are Pharmaceuticals, Agriculture or Forestry, Law Enforcement & Security, and Animal Care.
 
-##### Question 4
+##### Question 4:  Is there a correlation between education level, years of professional experience and salary? Specifically, does the highest degree earned correlate with salary differences among individuals with equal professional experience?
 ![title](Graphs/avg_sal_exp_ed.png)
 When considering individuals with 4 years or less of professional experience in the field, a notable correlation emerges between higher salaries and individuals with advanced education and higher degrees. This correlation results in an approximate $60,000 disparity in averages. However, for those with 21-30 years of experience, the influence of education level on average salary appears to diminish, with the gap narrowing to around $20,000. Additionally, there is a general decline in average salary across all educational backgrounds when the experience level reaches 40 years or more.
 
