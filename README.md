@@ -22,8 +22,8 @@ The dataset utilized in this analysis was sourced from [AskAManager.org](https:/
 
 1. Messy data:
   * There were multiple free-form answers resulting in spelling, spacing and capitalization errors
-  * State, industry and race columns allowed surveyors to check multiple boxes
   * Annual salary column included a comma and surveyors submitted extreme amounts
+  * Missing values in the state column
 2. The industry column allowed an ‘Other’ option (more free-form text to sort)
 3. Roughly 16% of the data was from outside of the US
 4. The race column allowed for multiple selections and an ‘Other’ option (decided to exclude race as a factor for analysis)
