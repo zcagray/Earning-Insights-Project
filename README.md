@@ -55,7 +55,7 @@ Among the age groups of 18-24 and 25-34, Computing and Tech emerges as the top-p
 
 ##### Question 3: Does gender have a varying impact on salary in specific states and industries?
 ![title](Graphs/avg_sal_gen_state.png)
-This initial chart indicates that men tend to have a higher average salary compared to women in all states except for Delaware, Maine, and Wyoming.
+This initial chart indicates that men tend to have a higher average salary compared to women in all states except for Delaware, Maine, and Wyoming. There appears to be little to no discernible correlation between geographical regions and the gender pay gap. The data suggests a trend where men consistently earn higher average salaries across all regions of the country.
 
 
 ![title](Graphs/avg_sal_ind_gen.png)
