@@ -21,9 +21,34 @@ The dataset utilized in this analysis was sourced from AskAManager.org, a platfo
 ### Technical Challenges
 
 1. Messy data:
-  * there were multiple free-form answers resulting in spelling, spacing and capitalization errors
-  * state, industry and race columns allowed participants to check multiple boxes
-  * annual salary column included a comma and surveyors submitted extreme numbers
+  * There were multiple free-form answers resulting in spelling, spacing and capitalization errors
+  * State, industry and race columns allowed participants to check multiple boxes
+  * Annual salary column included a comma and surveyors submitted extreme numbers
 2. The industry column allowed an ‘Other’ option (more free-form text to sort)
 3. Roughly 16% of the data was from outside of the US
 4. The race column allowed for multiple selections and an ‘Other’ option (decided to exclude race as a factor for analysis)
+
+### Approach
+#### Data Exploration
+
+In PgAdmin, I set up a new database named 'salary'. Then, I used an SQL command to create a table with 17 distinct columns. After making sure that the data was imported correctly, I began querying the relevant fields in an attempt to answer each one of the questions outlined earlier. This led to many discoveries about the data. Some of which included:
+  * About 77% of the responses were from women
+  * Around 83% of the people who answered identified as ‘White’
+  * Over 25% of responses came from either California, New York or Massachusetts combined
+
+#### Data Cleaning
+
+In Excel, I began by removing duplicates from the entire dataset. I also eliminated the commas from the ‘annual_salary’ column so that I could import that field into PostgreSQL as an integer. I thought it would be more convenient to address the free-form answers using SQL, so I imported the table data back into PostgreSQL. For the ‘country’ column, I standardized all relevant entries to ‘US’. Additionally, I populated empty ‘currency’ fields with ‘USD’ if ‘alt_currency’ had ‘USD’ listed. At this stage, I started deleting data that fell outside of the scope of both the US and USD. Further SQL querying revealed a decent amount of missing values in the ‘us_state’ field.
+
+
+Back in Excel, I populated the ‘us_state’ column when the state was mistakenly entered into the ‘city’ column or when it was possible to identify a corresponding US city. At this point, additional inconsistencies were removed, as some non-US cities were included. The next step involved the 'industry' column. I manually sorted the responses labeled as ‘Other’ into existing industries and introduced new categories when necessary. Lastly, I removed outliers from the ‘annual_salary’ column in PostgreSQL. This involved excluding values below $10,000 and exceeding a certain threshold calculated using the formula (average salary + 3 * standard deviation).
+
+
+
+
+
+
+
+
+
+
