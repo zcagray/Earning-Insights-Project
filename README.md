@@ -73,6 +73,16 @@ In this map, 100 means that men and women earn the same. The country's average i
 
 ### Results
 
+This section presents key findings from the analysis of salary data across various demographic factors and industries.
+
+1. **Economic Centers and Salaries**: Notable economic centers such as California, New York, and Washington, D.C. demonstrate the highest average salaries across industries.
+2. **Age and Top-Paying Industries**: Among different age groups, the Computing and Tech industry emerges as the highest paying for individuals aged 18-24 and 25-34. Pharmaceuticals gains prominence in the 35-44 and 45-54 age brackets. Energy and Business/Consulting lead for those aged 55-64 and 65 and above, respectively.
+3. **Gender Disparities**: Men generally earn higher average salaries than women across most states, except for Delaware, Maine, and Wyoming. Only four industries show women earning more: Pharmaceuticals, Agriculture/Forestry, Law Enforcement & Security, and Animal Care.
+4. **Education and Experience**: For individuals with 4 years or less of experience, advanced education correlates with significantly higher salaries, resulting in an approximate $60,000 difference. However, this correlation weakens with 21-30 years of experience, narrowing the gap to around $20,000. After 40 years of experience, average salaries decrease across all education levels.
+5. **Gender Pay Gap Map**: A map illustrating gender pay gap scores across states indicates the equality between men and women's earnings. The national average score of 77 suggests a gender pay gap, with scores below 100 indicating more unfavorable situations for women. Delaware, Maine, and Wyoming stand out with scores above 100, indicating better gender pay equality.
+
+
+These findings highlight the intricate interplay of geographic, demographic, and industry-related factors in shaping salary disparities and trends in the US.
 
 
 
