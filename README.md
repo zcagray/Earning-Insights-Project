@@ -71,6 +71,9 @@ Finally, I wondered which states had a smaller gender pay gap ratio than the cou
 ![title](Graphs/gpg_ratios.png)
 In this map, 100 means that men and women earn the same. The country's average is 77, which is not so good. The lower the number, the worse the situation is for women (shown in dark red). Remember, only Delaware, Maine, and Wyoming have numbers above 100 (shown in dark green).
 
+### Results
+
+
 
 
 
