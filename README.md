@@ -27,6 +27,7 @@ The dataset utilized in this analysis was sourced from [AskAManager.org](https:/
 2. The industry column allowed an ‘Other’ option (more free-form text to sort)
 3. Roughly 16% of the data was from outside of the US
 4. The race column allowed for multiple selections and an ‘Other’ option (decided to exclude race as a factor for analysis)
+5. Visualizing all 50 states within a single graph or chart
 
 ### Approach
 #### Data Exploration
